@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0}
+body{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 25px;
+    color: #0f0e0e;
+    background: url(    "../../../Documents/Unnamed Site 3/FB_IMG_1477834051715.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#about_Right{width: 700px; float: right}
+#about_Right ,#about_image{display: inline-block}
+h1,h2,h3,h4,h5,h6{font-family: "Arial Black"}
+#service_block   {
+    background: #012100;
+    width: 335px;
+    padding: 15px;
+    overflow: hidden;
+    line-height: 19px;
+    display: inline-block;
+    border: 1px solid #00ebebd1;
+    border-radius: 2px;
+    margin: 10px;
+    color: #efff00;
+    transition: all 1s;
+    animation-name: xoominmyboxes;
+    animation-duration:  1s
+    }
+#section{text-align: center}
+#right_content{
+    width: 250px;
+    float: right;
+}
+#left_icon {
+    width: 60px;
+    font-size: 50px;
+    float: left;
+    margin: 10px;
+    color: orange;
+}
+#left_icon,#right_content{display: inline-block}
+#right_content h2{
+    margin-bottom: 10px; 
+    font-size: 18px;
+    transition:1s;
+}
+#right_content p{ font-size: 13px}
+#all_blocks{
+    width: 1170px;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden
+    }
+#section_service{
+  background: linear-gradient(990deg, black, transparent);
+}
+#section{
+       padding: 50px 0px;
+    
+  
+    
+}
+#service_block:hover{background:transparent; color:whitesmoke;cursor: pointer; transition:  all 1s;transform: translateY(-12px);}
+@keyframes xoominmyboxes{
+    
+    
+    
+    from{opacity: 0 }
+    
+    to{opacity: 1 }
+    
+}
+#service_block:hover i{color: #32FF00}
+#service_title{color:aqua; font-size:30px; margin-bottom:30px }
+#section span{color:orange; }
+#about_image{
+    width: 364px;
+    /* border: 3px solid #fff; */
+    background: #ddd;
+    box-shadow: 15px -11px 20px 0px black;
+    height: 203px;
+    /* position: absolute; */
+}
+
+#about_Right h2{margin-bottom:25px; border-bottom: 2px solid #ddd; padding-bottom: 10px   }
+#about_Right p{font-size: 16px;color: #00f0a3eb;}
+footer{background: #333;color:aliceblue;text-align: center;color: #000000;background: linear-gradient(990deg, black, transparent);}
+#service_block:hover #right_content h2{
+    
+    transform: translateX(100px)
+}
+img {
+   width: 100%;
+   /* height: 233px; */
+   height: 100%;
+   }
+
+ul#primary_menu li {
+    
+display: inline-block;
+    
+padding-bottom: -3px;
+}
+nav#mainNav{
+          width: 100%;
+          overflow: hidden;
+          /* background: wheat */
+          background: linear-gradient(990deg, black, transparent);
+          }
+#primary_menu li a{/* background: orange; */color: #222;font-weight: bold;text-decoration: none;color: #00ffa1;padding: 32px;display: block;
+
+animation-name: menu;
+    animation-duration: 3s
+
+}
+#primary_menu{list-style: none;overflow: hidden;padding-bottom: -29px;/* margin-bottom: -25px; */}
+#menu_Container{display: block;float: left;width: 100%;width: 700px;float: right;}
+#logo img{height: 80px;width: 150px;padding: -19px;}
+#displaySize{width: 1157px;margin:auto;overflow:hidden;height: 88px;}
+#logo{width: 201px;float:left;padding: 5px 0px;text-align: center;}
+#primary_menu li a:hover {background: #3fff001a;color: #fff;
+    transform: scale(0.75);
+    transition: 0.5s
+
+}
+@keyframes menu{
+    from{opacity: 0 }
+    
+    to{opacity: 1 }
+}
+
+
+section#about_us {
+    background: linear-gradient(990deg, black, transparent);
+}
+
